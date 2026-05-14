@@ -13,8 +13,15 @@ The following steps will need to be performed immediately after creating the new
 ## Define or Link a Project
 Defining and linking a Project to this repository should be performed as part of the initial setup on the course. Learners should be instructed to use the [Agile Methods Training template project](https://github.com/orgs/UoMResearchIT/projects/270/views/1) to set this up.
 
-## Alter this README!
-This README should be changed by the course facilitator to leave any instructions that are part of the course learning, and other elements should be deleted before passing the repository on to the learners.
+## Alter this README and delete extraneous information
+This README should be changed by the course facilitator to leave any instructions that are part of the course learning, and other elements should be deleted before passing the repository on to the learners.  A (non-exhaustive) list of what to delete, once the branch rules and issues have been copied:
+ 
+- [ ] The remainder of this README, and rewrite the above sections to specify which group the new repository is for
+- [ ] Delete all workflows and files relating to licensing and copyright
+- [ ] Delete all workflows and scripts relating to copying issues from the template repository
+- [ ] Update the issue templates and pull request templates to better reflect the training material
+
+If you are using this repository as part of internal Agile training for the Manchester RSE team, then you may wish to keep some or all of the workflows and the instructions below.
 
 ## Branch Protection Ruleset
 The first thing to do after creating your new repository from this template is to head to `Settings -> Rules -> Rulesets` then choose `Import Ruleset`. You will then need to import the `Key Branch Protection Rules.json` ruleset which is located in the RSE Team SharePoint under [`RSE Team -> Read-Only -> Tools`](https://livemanchesterac.sharepoint.com/sites/UOM-ITS-Research-IT/_layouts/15/download.aspx?UniqueId=b55bbc9bc39b4be29dafaa09b9359b48&e=B6kYNZ).
