@@ -17,14 +17,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: input
-    id: version
-    attributes:
-      label: What version of our software are you running?
-      placeholder: "I don't know..."
-      description: >
-        It can really help if you let us know what version of our software you are using.
-        Sometimes the fix to the bug has already been implemented and all that is needed is an update, but this will let us know for sure.
   - type: textarea
     id: environment
     attributes:
